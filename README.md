@@ -1,1 +1,11 @@
-# Capstone_Design_Dept_of_I.C.T.
+# 캡스톤디자인1(정통) 닭칼매니아 - 강화학습을 활용한 순찰 경로 추천 시스템
+# 팀장 : 강민재
+# 팀원 : 배광균, 이세윤
+
+필요한 라이브러리들
+1. numpy
+2. pygame
+3. time
+4. pylab
+5. tabulate
+6. copy
