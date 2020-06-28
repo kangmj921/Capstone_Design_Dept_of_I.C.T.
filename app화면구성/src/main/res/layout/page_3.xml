@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-93dp"
+        android:src="@drawable/image2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+
+        android:gravity="center"
+        android:text="서비스 이용방법"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginBottom="15dp"
+        android:onClick="page3"
+        android:text="Go"
+        android:textSize="20dp"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="700dp"
+    tools:context=".PopupActivityPage3"
+    android:background="#fff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="71dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="10dp"
+            android:text="프로젝트의 개요"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:text="본 프로젝트는, 한정된 인력자원 내에서 효율적인 순찰임무가 가능하도록 여러가지 요소들을 고려하여 최선의 순찰경로를 제공하는 프로젝트입니다. "
+            android:textColor="#000"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="17dp"
+            android:text="프로젝트의 목표"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:text="1. 검증된 양질의 정보를 사용하여 중구 내 각 자치구별 범죄율을 예상하여, 사용자에게 신뢰할 수 있는 순찰경로를 추천합니다."
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:text="2. 단순히 예측된 범죄율 단 한가지로만 순찰경로를 설정하는것이 아닌, 거리까지 고려하여 최선의 순찰경로를 추천합니다."
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:text="3. 여러가지 환경요소를 고려하고 DQN방식의 딥러닝 기법을 사용하여 최소한의 오차로 기계가 스스로 학습하도록 합니다.   "
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="265dp"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/button"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="closeButton"
+            android:text="닫기"
+            android:textSize="20dp"
+            app:bootstrapBrand="primary"
+            app:bootstrapSize="lg"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
