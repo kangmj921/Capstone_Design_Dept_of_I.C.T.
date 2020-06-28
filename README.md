@@ -10,10 +10,10 @@
 5. tabulate
 6. copy
 
-필요한 라이브러리(app / JAVA)
+(app / JAVA)
 1.GoogleMap API
 
-필요한 라이브러리(web / javascript)
+(web / javascript)
 1.express
 2.ejs
 3.fs
