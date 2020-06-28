@@ -2,10 +2,21 @@
 # 팀장 : 강민재
 # 팀원 : 배광균, 이세윤
 
-필요한 라이브러리들
+필요한 라이브러리(python)
 1. numpy
 2. pygame
 3. time
 4. pylab
 5. tabulate
 6. copy
+
+필요한 라이브러리(app / JAVA)
+1.GoogleMap API
+
+필요한 라이브러리(web / javascript)
+1.express
+2.ejs
+3.fs
+4.line-reader
+5.mysql
+6.body-parser
